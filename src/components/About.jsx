@@ -18,11 +18,7 @@ const About = () => {
           with a focus on front-end development. With a solid foundation in
           HTML, CSS, and JavaScript, along with expertise in popular JavaScript
           frameworks like ReactJS, I thrive in creating dynamic and engaging
-          user experiences on the web..Equipped with a keen eye for design and a
-          meticulous approach to code, I take pride in crafting visually
-          stunning and intuitive user interfaces. I believe in the power of
-          pixel-perfect layouts and seamless user interactions to elevate the
-          overall user experience.
+          user experiences on the web.
         </p>
 
         <br />
