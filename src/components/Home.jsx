@@ -1,5 +1,5 @@
 import React from "react";
-import myProfile from "../assets/myprofile.png";
+import myProfile from "../assets/profile.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -12,13 +12,18 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="sm:text-3xl md:text-4xl font-bold text-white">
-            I'm a Front-End Developer
+            I'm a MERN Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md sm:text-sm md:text-xl">
-            Hey there👋. I'm a creative and enthusiastic frontend developer with
-            a knack for crafting mesmerizing online experiences. If pixels were
-            colors, I'd be the maestro behind the digital canvas, blending
-            technology and art to bring stunning websites to life.
+            Hey there👋. Passionate MERN stack developer with a genuine love for
+            turning ideas into robust, scalable, and user-friendly applications.
+            I thrive on challenges to learn quickly, adapting to new
+            technologies as they emerge. My collaborative spirit shines through
+            as I enjoy working closely with cross-functional teams to deliver
+            high-quality solutions. With a focus on clean, efficient code, I am
+            dedicated to creating seamless and engaging user experiences.
+            Excited about the opportunity to contribute my skills and creativity
+            to innovative projects.
           </p>
 
           <div>
@@ -35,14 +40,11 @@ const Home = () => {
             </Link>
           </div>
         </div>
-
-        <div>
-          <img
-            src={myProfile}
-            alt="my profile"
-            className="rounded-3xl mx-auto w-2/3 md:w-full pl-5"
-          />
-        </div>
+        <img
+          src={myProfile}
+          alt="my profile"
+          className=" mx-auto h-1/2 w2/3 md:h-auto rounded-xl md:w-1/3"
+        />
       </div>
     </div>
   );

@@ -7,6 +7,9 @@ import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import mysql from "../assets/mysql.png";
+import node from "../assets/node.png";
+import express from "../assets/express.png";
+import mongo from "../assets/mongo.png";
 
 const Experience = () => {
   const techs = [
@@ -52,12 +55,30 @@ const Experience = () => {
       title: "MySql",
       style: "shadow-blue-300",
     },
+    {
+      id: 8,
+      src: node,
+      title: "Node Js",
+      style: "shadow-green-500",
+    },
+    {
+      id: 9,
+      src: express,
+      title: "Express Js",
+      style: "shadow-violet-500",
+    },
+    {
+      id: 10,
+      src: mongo,
+      title: "Mongodb",
+      style: "shadow-green-600",
+    },
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col  justify-center w-full h-full text-white">
         <div>
