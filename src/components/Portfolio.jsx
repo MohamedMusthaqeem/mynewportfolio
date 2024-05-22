@@ -4,6 +4,8 @@ import msClone from "../assets/portfolio/msclone.png";
 import taskTracker from "../assets/portfolio/tasktracker.png";
 import bgGen from "../assets/portfolio/bggen.png";
 import flexGrid from "../assets/portfolio/flex.png";
+import newsium from "../assets/portfolio/newsium.png"
+import skillfest from "../assets/portfolio/skillfest.jpg"
 
 const Portfolio = () => {
   const portfolios = [
@@ -26,6 +28,14 @@ const Portfolio = () => {
     {
       id: 5,
       src: flexGrid,
+    },
+    {
+      id: 6,
+      src: newsium,
+    },
+    {
+      id: 7,
+      src: skillfest,
     },
   ];
 
