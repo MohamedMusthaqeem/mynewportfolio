@@ -1,89 +1,15 @@
-import React from "react";
-
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
-import mysql from "../assets/mysql.png";
-import node from "../assets/node.png";
-import express from "../assets/express.png";
-import mongo from "../assets/mongo.png";
+import { techs } from "../Data/Links";
 
 const Experience = () => {
-  const techs = [
-    {
-      id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 6,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 7,
-      src: mysql,
-      title: "MySql",
-      style: "shadow-blue-300",
-    },
-    {
-      id: 8,
-      src: node,
-      title: "Node Js",
-      style: "shadow-green-500",
-    },
-    {
-      id: 9,
-      src: express,
-      title: "Express Js",
-      style: "shadow-violet-500",
-    },
-    {
-      id: 10,
-      src: mongo,
-      title: "Mongodb",
-      style: "shadow-green-600",
-    },
-  ];
-
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen"
+      className=" bg-white text-black min-h-screen md:max-h-screen"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col  justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col  justify-center w-full h-full text-black">
         <div>
-          <p className="sm:text-3xl sm:mt-5 md:text-4xl font-bold border-b-4 border-gray-500 p-2 pt-6 inline">
-            Experience
+          <p className="text-2xl sm:mt-5 md:text-4xl font-bold border-b-4 border-gray-500 p-2 pt-6 inline">
+            Skills
           </p>
           <p className="py-6 sm:text-sm md:text-xl">
             These are the technologies I've worked with

@@ -1,18 +1,27 @@
-import React from "react";
 import myProfile from "../assets/profile.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 const Home = () => {
+  const [text] = useTypewriter({
+    words: [
+      "Front-End Developer",
+      "Back-End Developer",
+      "MERN Stack Developer",
+    ],
+    loop: {},
+    typeSpeed: 120,
+    deleteSpeed: 100,
+  });
   return (
-    <div
-      name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
-    >
+    <div name="home" className=" min-h-screen md:h-screen w-full bg-white">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="sm:text-3xl md:text-4xl font-bold text-white">
-            I'm a MERN Stack Developer
+          <h2 className="text-3xl md:text-4xl font-bold text-black">
+            I'm a <span className="text-black">{text}</span>
+            <span>
+              <Cursor cursorStyle="<" />
+            </span>
           </h2>
           <p className="text-gray-500 py-4 max-w-md sm:text-sm md:text-xl">
             Hey there👋. Passionate MERN stack developer with a genuine love for
@@ -31,7 +40,7 @@ const Home = () => {
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-blue-600 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
@@ -43,7 +52,7 @@ const Home = () => {
         <img
           src={myProfile}
           alt="my profile"
-          className=" mx-auto h-1/2 w2/3 md:h-auto rounded-xl md:w-1/3"
+          className=" mx-auto h-1/2 object-cover rounded-xl md:w-1/3"
         />
       </div>
     </div>
