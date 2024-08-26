@@ -11,7 +11,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-sm md:text-xl sm:mt-14 md:mt-20">
+        <p className="text-lg md:text-xl sm:mt-14 md:mt-20">
           I'm a MERN stack developer, proficient in MongoDB, Express.js,
           React.js, and Node.js. I am a self motivated and resourceful person
           specialized in building dynamic and responsive web applications,

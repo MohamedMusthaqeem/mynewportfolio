@@ -31,7 +31,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center mx-4 md:mx-10 h-12 md:h-20 px-4 text-black bg-white md:shadow-xl border-2 rounded-full my-3 md:my-8 lg:my-8 top-0 sticky z-10">
       <div>
-        <h1 className="text-lg md:text-2xl lg:text-4xl font-signature ml-2">
+        <h1 className="text-xl md:text-2xl lg:text-4xl font-signature ml-2">
           Mohamed Musthaqeem A
         </h1>
       </div>
