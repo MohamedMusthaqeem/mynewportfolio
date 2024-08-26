@@ -2,7 +2,10 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full min-h-screen md:h-screen  bg-white text-black"
+      className="w-full min-h-screen md:h-screen text-black"
+      style={{
+        backgroundImage: `url('https://img.freepik.com/premium-vector/islamic-background-with-arabic-hexagonal-ornament-arabian-seamless-geometric-pattern-texture_57082-2613.jpg?size=626&ext=jpg&ga=GA1.1.842344073.1724656545&semt=ais_hybrid')`,
+      }}
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">

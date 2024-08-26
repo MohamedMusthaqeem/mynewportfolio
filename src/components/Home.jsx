@@ -14,7 +14,13 @@ const Home = () => {
     deleteSpeed: 100,
   });
   return (
-    <div name="home" className=" min-h-screen md:h-screen w-full bg-white">
+    <div
+      name="home"
+      className=" min-h-screen md:h-screen w-full"
+      style={{
+        backgroundImage: `url('https://img.freepik.com/premium-vector/islamic-background-with-arabic-hexagonal-ornament-arabian-seamless-geometric-pattern-texture_57082-2613.jpg?size=626&ext=jpg&ga=GA1.1.842344073.1724656545&semt=ais_hybrid')`,
+      }}
+    >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-3xl md:text-4xl font-bold text-black">
@@ -23,7 +29,7 @@ const Home = () => {
               <Cursor cursorStyle="<" />
             </span>
           </h2>
-          <p className="text-gray-500 py-4 max-w-md sm:text-sm md:text-xl">
+          <p className="text-gray-700 py-4 max-w-md sm:text-sm md:text-xl">
             Hey there👋. Passionate MERN stack developer with a genuine love for
             turning ideas into robust, scalable, and user-friendly applications.
             I thrive on challenges to learn quickly, adapting to new
