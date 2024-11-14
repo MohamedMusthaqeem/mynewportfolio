@@ -2,14 +2,14 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full min-h-screen md:h-screen text-black"
+      className="min-h-screen md:max-h-screen w-full text-black "
       style={{
         backgroundImage: `url('https://img.freepik.com/premium-vector/islamic-background-with-arabic-hexagonal-ornament-arabian-seamless-geometric-pattern-texture_57082-2613.jpg?size=626&ext=jpg&ga=GA1.1.842344073.1724656545&semt=ais_hybrid')`,
       }}
     >
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto">
         <div className="pb-8">
-          <p className="text-2xl md:text-4xl font-bold inline border-b-4 border-black">
+          <p className="text-2xl md:text-4xl font-bold inline border-b-4 border-black ">
             Contact
           </p>
           <p className="py-6">Submit the form to contact me</p>

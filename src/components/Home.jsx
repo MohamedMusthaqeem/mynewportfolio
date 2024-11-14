@@ -7,7 +7,7 @@ const Home = () => {
     words: [
       "Front-End Developer",
       "Back-End Developer",
-      "MERN Stack Developer",
+      "Full Stack Developer",
     ],
     loop: {},
     typeSpeed: 120,
@@ -58,7 +58,7 @@ const Home = () => {
         <img
           src={myProfile}
           alt="my profile"
-          className=" mx-auto h-1/2 object-cover rounded-xl md:w-1/3"
+          className=" mx-auto h-1/2  rounded-xl md:w-1/3"
         />
       </div>
     </div>
